@@ -1,0 +1,42 @@
+  
+    body { font-family: Arial; }
+    #topBar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    #board {
+      border: 1px solid black;
+    }
+    #output {
+      width: 300px;
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid black;
+    }
+    #container {
+      display: flex;
+      gap: 20px;
+    }
+    button { padding: 6px 12px; }
+    #pause { background: orange; }
+    #resume { background: lightgreen; }
+	#run {background: red; color: white;}
+	
+	#visualizer-container {
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
