@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>N-Queens Visualizer</title>
+  <link rel="stylesheet" href="nQueensCSS.css">
+</head>
+
+<body>
+  <script src="nQueensJavascript.js" defer></script>
+<div id="visualizer-container">
+
+  <div id="header">
+    <h2>N-Queens Visualizer</h2>
+    </a>
+  </div>
+  
+<div id="topBar">
+  <label>Columns (4–20):</label>
+  <input type="number" id="columns" min="4" max="20" value="7">
+
+  <label>
+    <input type="checkbox" id="capCheck"> Gen Cap
+  </label>
+
+  <input type="number" id="capInput" disabled placeholder="Max Gen">
+
+  <button id="run">Run</button>
+
+  <span id="genLabel">Generation: 0</span>
+  <span id="fitnessLabel">Fitness: 0</span>
+
+  <button id="pause">Pause</button>
+  <button id="resume">Resume</button>
+</div>
+
+<div id="container">
+  <textarea id="output" readonly height="500"></textarea>
+  <canvas id="board" width="500" height="500"></canvas>
+</div>
+</div>
+</body>
+</html>
